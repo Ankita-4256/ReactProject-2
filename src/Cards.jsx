@@ -4,11 +4,17 @@ import './index.css'
 function Cards(props) {
     return (
         <>
+            <div className="cards">
             <div className="card">
-                <img src={props.imgSource} />
-                <div className="container">
-                    <h4><b>{props.name}</b></h4>
+                <img src={props.imgSource} className='card_img' />
+
+                <div className="card_info">
+                <span className='card_category'>A Netflix original Series</span>
+                    <h3 className='card_title'><b>{props.name}</b></h3>
+                    <a href={props.link}>
                     <button>Watch Now</button>
+                    </a>
+                </div>
                 </div>
             </div>
         </>
