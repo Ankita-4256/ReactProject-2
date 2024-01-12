@@ -56,7 +56,7 @@
 
 .card_category {
   font-family: 'Libre Baskerville', serif;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
   color: #868686;

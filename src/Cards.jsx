@@ -9,7 +9,7 @@ function Cards(props) {
                 <img src={props.imgSource} className='card_img' />
 
                 <div className="card_info">
-                <span className='card_category'>A Netflix</span>
+                <span className='card_category'>A Netflix Series</span>
                     <h3 className='card_title'><b>{props.name}</b></h3>
                     <a href={props.link}>
                     <button>Watch Now</button>
