@@ -1,12 +1,13 @@
 import React from 'react';
 import './index.css'
+import Images from './Images';
 
 function Cards(props) {
     return (
         <>
             <div className="cards">
             <div className="card">
-                <img src={props.imgSource} className='card_img' />
+              <Images imgSource={props.imgSource}/>
 
                 <div className="card_info">
                 <span className='card_category'>A Netflix Series</span>
